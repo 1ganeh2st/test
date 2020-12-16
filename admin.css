@@ -1,19 +1,16 @@
-body .test
+#main
 {
-    margin: 0 auto;
+    width: 1000px;
+    height: 600px;
+    float: left;
+    border: 2px solid #aaa;
 }
-#test2
+#main .redSquare
 {
-    margin: 10px;
-}
-#mainImg
-{
-    width: 100px;
-    height: 100px;
-}
-
-ul
-{
-    padding:0;
-    margin:0;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+     margin-left: 350px;
+     margin-top: 150px;
+     background-color:#f74444;
 }
